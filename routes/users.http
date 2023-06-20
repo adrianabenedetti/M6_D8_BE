@@ -1,0 +1,18 @@
+GET http://localhost:5050/users 
+
+############
+
+POST http://localhost:5050/users HTTP/1.1
+content-type: application/json
+
+{
+     "firstname": "Adriana",
+     "lastname": "Benedetti",
+     "username":"Adrianosaura",
+      "email": "adri@gmail.com",
+      "password": "sauropodi",
+      "age": 30,
+      "role":"admin"
+     }
+
+############
